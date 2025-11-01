@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Django
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media files (optional - uncomment if you don't want to push media files)
+# media/
+
+# Static files
+staticfiles/
+static_root/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
